@@ -1,0 +1,76 @@
+body {
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #fff0f5, #ffe4e1);
+  color: #5a2a27;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: #f7c8d0;
+  justify-content: center;
+  padding: 1em 0;
+  margin: 0;
+}
+nav ul li a {
+  padding: 1em;
+  color: #5a2a27;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  background-color: #ffc0cb;
+}
+header, section {
+  text-align: center;
+  padding: 2em;
+}
+button {
+  background: #ff69b4;
+  border: none;
+  color: white;
+  padding: 0.5em 1.5em;
+  border-radius: 8px;
+  font-size: 1em;
+  margin-top: 1em;
+}
+img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 1em;
+  box-shadow: 0 0 15px rgba(255,192,203,0.5);
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+.grid figure {
+  width: 200px;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+table, th, td {
+  border: 1px solid #d87093;
+}
+th, td {
+  padding: 0.5em;
+  background-color: #fffafa;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input, textarea {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  width: 80%;
+  border: 1px solid #ffb6c1;
+  border-radius: 6px;
+}
